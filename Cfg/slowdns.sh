@@ -10,7 +10,7 @@ REDBG="\033[41;37m"
 NC='\e[0m'
 REPOS="http://storage.tun.notsec.my.id/v2/"
 ns_domain_cloudflare() {
-	DOMAIN="xdg-boost.my.id"
+	DOMAIN="nampes.my.id"
 	DOMAIN_PATH=$(cat /etc/xray/domain)
 	echo -e "${BLUE}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 	echo -e "           Masukan Subdomain              "
@@ -20,10 +20,10 @@ ns_domain_cloudflare() {
 	if [ -z $SUB ]; then
     exit
     else
-	SUB_DOMAIN=${SUB}."xdg-boost.my.id"
+	SUB_DOMAIN=${SUB}."nampes.my.id"
 	NS_DOMAIN=dns.${SUB_DOMAIN}
-	CF_ID=ziexyuan@gmail.com
-        CF_KEY=defec9840c857888b6d1986354d45d617c83a
+	CF_ID=tempatsedekah@gmail.com
+        CF_KEY=7ab5e0434866ea3926e44d59826961654a8f8
 	set -euo pipefail
 	IP=$(wget -qO- ipinfo.io/ip)
 	echo "Updating DNS NS for ${NS_DOMAIN}..."
