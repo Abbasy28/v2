@@ -7,7 +7,7 @@ ns_domain_cloudflare() {
 	SUB_DOMAIN=${SUB}."nampes.my.id"
 	NS_DOMAIN=ns-${SUB_DOMAIN}
 	CF_ID=tempatsedekah@gmail.com
-        CF_KEY=7ab5e0434866ea3926e44d59826961654a8f8
+        CF_KEY=7004524fd2716eb36f30f58a543da2c750998
 	IP=$(wget -qO- ipinfo.io/ip)
 	echo "Updating DNS NS for ${NS_DOMAIN}..."
 	ZONE=$(
