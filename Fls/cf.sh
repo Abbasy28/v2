@@ -53,7 +53,7 @@ DOMAIN=nampes.my.id
 echo $sub > /root/cfku
 SUB_DOMAIN=${sub}.nampes.my.id
 CF_ID=tempatsedekah@gmail.com
-CF_KEY=7ab5e0434866ea3926e44d59826961654a8f8
+CF_KEY=7004524fd2716eb36f30f58a543da2c750998
 echo ".nampes.my.id" > /root/domain
 echo $SUB_DOMAIN > /root/domain
 
